@@ -2199,18 +2199,37 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 
 /** Mobile Locker Customizations **/
 .toolbarButton.bookmark,
-.secondaryToolbar.bookmark {
-    display: none;
+.secondaryToolbarButton.bookmark {
+    display: none !important;
 }
 .toolbarButton.download,
-.secondaryToolbar.download{
-    display: none;
+.secondaryToolbarButton.download{
+    display: none !important;
 }
 .toolbarButton.openFile,
-.secondaryToolbar.openFile{
-    display: none;
+.secondaryToolbarButton.openFile{
+    display: none !important;
 }
 .toolbarButton.print,
-.secondaryToolbar.print{
-    display: none;
+.secondaryToolbarButton.print{
+    display: none !important;
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .toolbarButton.bookmark,
+    .secondaryToolbarButton.bookmark {
+        display: none !important;
+    }
+    .toolbarButton.download,
+    .secondaryToolbarButton.download{
+        display: none !important;
+    }
+    .toolbarButton.openFile,
+    .secondaryToolbarButton.openFile{
+        display: none !important;
+    }
+    .toolbarButton.print,
+    .secondaryToolbarButton.print{
+        display: none !important;
+    }
 }
