@@ -2210,10 +2210,10 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 .secondaryToolbarButton.openFile{
     display: none !important;
 }
-.toolbarButton.print,
+/*.toolbarButton.print,
 .secondaryToolbarButton.print{
     display: none !important;
-}
+}*/
 
 @media screen and (min-resolution: 2dppx) {
     .toolbarButton.bookmark,
@@ -2228,8 +2228,8 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     .secondaryToolbarButton.openFile{
         display: none !important;
     }
-    .toolbarButton.print,
+    /*.toolbarButton.print,
     .secondaryToolbarButton.print{
         display: none !important;
-    }
+    }*/
 }
