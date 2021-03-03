@@ -2197,7 +2197,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
 }
 
-/** Mobile Locker Customizations **/
+/** MLE-55, MLE-56 Mobile Locker Customizations **/
 .toolbarButton.bookmark,
 .secondaryToolbarButton.bookmark {
     display: none !important;
