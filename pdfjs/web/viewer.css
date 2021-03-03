@@ -2196,3 +2196,21 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+
+/** Mobile Locker Customizations **/
+.toolbarButton.bookmark,
+.secondaryToolbar.bookmark {
+    display: none;
+}
+.toolbarButton.download,
+.secondaryToolbar.download{
+    display: none;
+}
+.toolbarButton.openFile,
+.secondaryToolbar.openFile{
+    display: none;
+}
+.toolbarButton.print,
+.secondaryToolbar.print{
+    display: none;
+}
