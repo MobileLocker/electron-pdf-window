@@ -23,8 +23,10 @@ const mobilelocker = {
     }
   },
   printIfAllowed (showAlert = false) {
-    if (isPrintingAllowed(showAlert)) {
+    if (this.isPrintingAllowed(showAlert)) {
       window.print()
     }
   },
 }
+
+window.mobilelocker = mobilelocker;

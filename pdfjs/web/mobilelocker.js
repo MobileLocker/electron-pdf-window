@@ -39,7 +39,7 @@
     } catch (e) { }
   }
 
-  if (mobilelocker.isPrintingAllowed()) {
+  if (window.mobilelocker.isPrintingAllowed()) {
     console.log('The PDF can be printed')
   } else {
     console.log('The PDF cannot be printed so the PRINT button will be hidden')
